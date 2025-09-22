@@ -1,3 +1,15 @@
+/* Colors */
+
+:root {
+    --background_blue: #0055aa;
+    --background_purple: #6600cc;
+    --border_color: grey;
+    --font_color: #f5f5f5;
+    --button_color: #bf00ff;
+    --button_background: #e1e1e1;
+    --picture_border: #383838;
+}
+
 /* Page principale */
 
 body {
@@ -5,13 +17,13 @@ body {
 }
 
 .fond {
-    background: linear-gradient(to right, #0055aa, #6600cc);
+    background: linear-gradient(to right, var(--background_blue), var(--background_purple));
 }
 
 /* Header */
 
 header {
-    border-bottom: 1.5px solid grey;
+    border-bottom: 1.5px solid var(--border_color);
 }
 
 #signature {
@@ -33,7 +45,7 @@ header {
 }
 
 .menu a {
-    color: white;
+    color: var(--font_color);
     display: block;
     text-decoration: none;
     min-width: 50px;
@@ -72,7 +84,7 @@ header {
 
 #nom{
     display: flex;
-    color: white;
+    color: var(--font_color);
     justify-content: center;
     font-size: 45px;
     font-weight: bold;
@@ -81,7 +93,7 @@ header {
 
 #metier {
     display: flex;
-    color: white;
+    color: var(--font_color);
     justify-content: center;
     font-size: 25px;
     font-weight: bold;
@@ -96,7 +108,7 @@ header {
 #photo-pro {
     width: 180px;
     margin-right: 30px;
-    border: 5px solid #383838;
+    border: 5px solid var(--picture_border);
 }
 
 .presentation {
@@ -107,7 +119,7 @@ header {
 
 .presentation p {
     font-size: 20px;
-    color: white;
+    color: var(--font_color);
     text-align: justify;
 }
 
@@ -116,9 +128,9 @@ header {
     padding: 10px 20px;
     text-align: center;
     border-radius: 40px;
-    background: #e1e1e1;
-    border: 2px solid #BF00FF;
-    color: #BF00FF;
+    background: var(--button_background);
+    border: 2px solid var(--button_color);
+    color: var(--button_color);
     font-size: 20px;
     font-weight: bold;
     cursor: pointer; /* Affiche une main au moment du survol */
@@ -126,13 +138,8 @@ header {
 }
 
 #presentation-bouton:hover {
-    color: white;
-    background: #BF00FF;
-}
-
-.Experiences_preview {
-    display: block;
-    border: 3px solid black
+    color: var(--font_color);
+    background: var(--button_color);
 }
 
 /* Projets */
@@ -143,7 +150,7 @@ header {
 #Projet_title {
     display: flex;
     justify-content: center;
-    color: white;
+    color: var(--font_color);
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 2%;
@@ -155,11 +162,11 @@ header {
 }
 
 #Projet_Proxima_div {
-    border: 1.5px solid gray;
+    border: 1.5px solid var(--border_color);
 }
 
 #Projet_Proxima_title {
-    color: white;
+    color: var(--font_color);
     font-size: 18px;
     font-weight: bold;
 }
@@ -170,7 +177,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1.5px solid gray;
+    border-top: 1.5px solid var(--border_color);
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 10px;
@@ -183,7 +190,7 @@ small li {
 
 small a {
     text-decoration: none;
-    color: white;
+    color: var(--font_color);
     font-size: 16px;
 }
 
@@ -193,7 +200,7 @@ small a {
 
 #fast-nav {
     font-size: 18px;
-    color: white;
+    color: var(--font_color);
     text-decoration: underline;
 }
 
@@ -209,16 +216,16 @@ small a:hover {
 
 #github-icon {
     width: 40px;
-    border: 3.5px solid white;
+    border: 3.5px solid var(--font_color);
     border-radius: 40px;
 }
 
 #linkedin-icon {
     width: 40px;
-    border: 3.5px solid white;
+    border: 3.5px solid var(--font_color);
     border-radius: 40px;
 }
 
 #copyright {
-    color: white;
+    color: var(--font_color);
 }

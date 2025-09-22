@@ -67,7 +67,7 @@ header {
 /* Accueil */
 
 .Accueil {
-    min-height: 100vh; /* Taille min => 80% du navigateur*/
+    min-height: 80vh; /* Taille min => 80% du navigateur*/
 }
 
 #nom{
@@ -136,8 +136,32 @@ header {
 }
 
 /* Projets */
-.Projets_developpement {
+.Projets {
     width: 100vh;
+}
+
+#Projet_title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+#Liste_projets {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Projet_Proxima_div {
+    border: 1.5px solid gray;
+}
+
+#Projet_Proxima_title {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* Footer */
@@ -146,7 +170,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1.5px solid grey;
+    border-top: 1.5px solid gray;
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 10px;

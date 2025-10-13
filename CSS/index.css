@@ -8,6 +8,8 @@
     --button_color: #bf00ff;
     --button_background: #e1e1e1;
     --picture_border: #383838;
+    --logo_width: 150px;
+    --logo_height: 150px;
 }
 
 /* Page principale */
@@ -162,13 +164,25 @@ header {
 }
 
 #Projet_Proxima_div {
+    text-align: center;
     border: 1.5px solid var(--border_color);
+    margin-right: 15%;
+    margin-left: 6.7%;
 }
 
 #Projet_Proxima_title {
     color: var(--font_color);
     font-size: 18px;
     font-weight: bold;
+}
+
+#Projet_Proxima_logo {
+    width: var(--logo_width);
+    height: var(--logo_height);
+}
+
+#Projet_Proxima_summary {
+    margin: 10px;
 }
 
 /* Footer */

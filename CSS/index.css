@@ -125,7 +125,7 @@ header {
     text-align: justify;
 }
 
-#presentation-bouton {
+.Buttons {
     text-decoration: none;
     padding: 10px 20px;
     text-align: center;

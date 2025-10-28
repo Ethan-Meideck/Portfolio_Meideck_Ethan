@@ -3,6 +3,8 @@
 :root {
     --background_blue: #0055aa;
     --background_purple: #6600cc;
+    --navbar_background_blue: rgba(0, 85, 170, 0.9);
+    --navbar_background_purple: rgba(102, 0, 204, 0.9);
     --border_color: grey;
     --font_color: #f5f5f5;
     --button_color: #bf00ff;
@@ -24,8 +26,12 @@ body {
 
 /* Header */
 
-header {
-    border-bottom: 1.5px solid var(--border_color);
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(90deg, var(--navbar_background_blue), var(--navbar_background_purple));
 }
 
 #signature {
@@ -70,7 +76,7 @@ header {
 
 #saut_separateur {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 #saut_menu {
@@ -127,9 +133,9 @@ header {
 
 .Buttons {
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 8px 10px;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 60px;
     background: var(--button_background);
     border: 2px solid var(--button_color);
     color: var(--button_color);
@@ -139,7 +145,7 @@ header {
     transition: all 0.3s ease; /* Crée une transition au moment du survol*/
 }
 
-#presentation-bouton:hover {
+.Buttons:hover {
     color: var(--font_color);
     background: var(--button_color);
 }
@@ -165,9 +171,10 @@ header {
 
 #Projet_Proxima_div {
     text-align: center;
-    border: 1.5px solid var(--border_color);
-    margin-right: 15%;
+    border: 3px solid var(--border_color);
     margin-left: 6.7%;
+    margin-right: 5%;
+    padding-bottom: 20px;
 }
 
 #Projet_Proxima_title {
@@ -176,12 +183,68 @@ header {
     font-weight: bold;
 }
 
+#Projet_Proxima_summary {
+    color: var(--font_color);
+}
+
 #Projet_Proxima_logo {
     width: var(--logo_width);
     height: var(--logo_height);
 }
 
 #Projet_Proxima_summary {
+    margin: 10px;
+}
+
+#The_Library_div {
+    text-align: center;
+    border: 3px solid var(--border_color);
+    margin-right: 5%;
+    padding-bottom: 20px;
+}
+
+#The_Library_title {
+    color: var(--font_color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#The_Library_summary {
+    color: var(--font_color);
+}
+
+#The_Library_logo {
+    width: var(--logo_width);
+    height: var(--logo_height);
+}
+
+#The_Library_summary {
+    margin: 10px;
+}
+
+#Config_Mate_div {
+    text-align: center;
+    border: 3px solid var(--border_color);
+    margin-right: 6.7%;
+    padding-bottom: 20px;
+}
+
+#Config_Mate_title {
+    color: var(--font_color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#Config_Mate_summary {
+    color: var(--font_color);
+}
+
+#Config_Mate_logo {
+    width: var(--logo_width);
+    height: var(--logo_height);
+}
+
+#Config_Mate_summary {
     margin: 10px;
 }
 

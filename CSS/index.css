@@ -29,7 +29,6 @@ body {
 nav {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     background: linear-gradient(90deg, var(--navbar_background_blue), var(--navbar_background_purple));
 }
@@ -44,8 +43,8 @@ nav {
     padding: 0;
     gap: 40px; /*  Espace entre les balises*/
     justify-content: flex-end;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 6.9%;
+    margin-right: 7.5%;
 }
 
 .menu li {
@@ -115,8 +114,13 @@ nav {
 
 #photo-pro {
     width: 180px;
+    margin-left: 12%;
     margin-right: 30px;
     border: 5px solid var(--picture_border);
+}
+
+#contenu_accueil_div {
+    margin-left: 2.5%;
 }
 
 .presentation {
@@ -222,30 +226,109 @@ nav {
     margin: 10px;
 }
 
-#Config_Mate_div {
+#Prepa_Deck_div {
     text-align: center;
     border: 3px solid var(--border_color);
     margin-right: 6.7%;
     padding-bottom: 20px;
 }
 
-#Config_Mate_title {
+#Prepa_Deck_title {
     color: var(--font_color);
     font-size: 18px;
     font-weight: bold;
 }
 
-#Config_Mate_summary {
+#Prepa_Deck_summary {
     color: var(--font_color);
 }
 
-#Config_Mate_logo {
+#Prepa_Deck_logo {
     width: var(--logo_width);
     height: var(--logo_height);
 }
 
-#Config_Mate_summary {
+#Prepa_Deck_summary {
     margin: 10px;
+}
+
+/* Compétences */
+
+#saut_competences {
+    display: block;
+    margin-top: 5%;
+}
+
+#competences {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.5%;
+    margin-right: 6.6%;
+}
+
+#python_logo {
+    height: 150px;
+}
+
+#python_text {
+    display: flex;
+    justify-content: center;
+    color: var(--font_color);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -5.8%;
+}
+
+#HTML_logo {
+    width:128px; 
+    height:128px;
+}
+
+#html_text {
+    display: flex;
+    justify-content: center;
+    color: var(--font_color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#CSS_logo {
+    width:128px; 
+    height:128px;
+}
+
+#css_text {
+    display: flex;
+    justify-content: center;
+    color: var(--font_color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#Cs_logo {
+    width:128px; 
+    height:128px;
+}
+
+#cs_text {
+    display: flex;
+    justify-content: center;
+    color: var(--font_color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#PHP_logo {
+    width:128px; 
+    height:128px;
+}
+
+#php_text {
+    display: flex;
+    justify-content: center;
+    color: var(--font_color);
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* Footer */

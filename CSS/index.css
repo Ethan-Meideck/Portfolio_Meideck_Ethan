@@ -85,7 +85,7 @@ nav {
 
 /* Accueil */
 
-.Accueil {
+#accueil_section {
     min-height: 80vh; /* Taille min => 80% du navigateur*/
 }
 
@@ -135,7 +135,7 @@ nav {
     text-align: justify;
 }
 
-.Buttons {
+.boutons {
     text-decoration: none;
     padding: 8px 10px;
     text-align: center;
@@ -149,17 +149,17 @@ nav {
     transition: all 0.3s ease; /* Crée une transition au moment du survol*/
 }
 
-.Buttons:hover {
+.boutons:hover {
     color: var(--font_color);
     background: var(--button_color);
 }
 
 /* Projets */
-.Projets {
+.projets {
     width: 100vh;
 }
 
-#Projet_title {
+.section_titres {
     display: flex;
     justify-content: center;
     color: var(--font_color);
@@ -168,12 +168,12 @@ nav {
     margin-bottom: 2%;
 }
 
-#Liste_projets {
+#liste_projets {
     display: flex;
     justify-content: space-between;
 }
 
-#Projet_Proxima_div {
+#projet_proxima_div {
     text-align: center;
     border: 3px solid var(--border_color);
     margin-left: 6.7%;
@@ -181,74 +181,74 @@ nav {
     padding-bottom: 20px;
 }
 
-#Projet_Proxima_title {
+#projet_proxima_titre {
     color: var(--font_color);
     font-size: 18px;
     font-weight: bold;
 }
 
-#Projet_Proxima_summary {
+#projet_proxima_resume {
     color: var(--font_color);
 }
 
-#Projet_Proxima_logo {
+#projet_proxima_logo {
     width: var(--logo_width);
     height: var(--logo_height);
 }
 
-#Projet_Proxima_summary {
+#projet_proxima_resume {
     margin: 10px;
 }
 
-#The_Library_div {
+#the_library_div {
     text-align: center;
     border: 3px solid var(--border_color);
     margin-right: 5%;
     padding-bottom: 20px;
 }
 
-#The_Library_title {
+#the_library_titre {
     color: var(--font_color);
     font-size: 18px;
     font-weight: bold;
 }
 
-#The_Library_summary {
+#the_library_resume {
     color: var(--font_color);
 }
 
-#The_Library_logo {
+#the_library_logo {
     width: var(--logo_width);
     height: var(--logo_height);
 }
 
-#The_Library_summary {
+#the_library_resume {
     margin: 10px;
 }
 
-#Prepa_Deck_div {
+#prepa_deck_div {
     text-align: center;
     border: 3px solid var(--border_color);
     margin-right: 6.7%;
     padding-bottom: 20px;
 }
 
-#Prepa_Deck_title {
+#prepa_deck_titre {
     color: var(--font_color);
     font-size: 18px;
     font-weight: bold;
 }
 
-#Prepa_Deck_summary {
+#prepa_deck_resume {
     color: var(--font_color);
 }
 
-#Prepa_Deck_logo {
+#prepa_deck_logo {
     width: var(--logo_width);
     height: var(--logo_height);
 }
 
-#Prepa_Deck_summary {
+#prepa_deck_resume {
     margin: 10px;
 }
 
@@ -270,7 +270,7 @@ nav {
     height: 150px;
 }
 
-#python_text {
+#python_texte {
     display: flex;
     justify-content: center;
     color: var(--font_color);
@@ -279,12 +279,12 @@ nav {
     margin-top: -5.8%;
 }
 
-#HTML_logo {
+#html_logo {
     width:128px; 
     height:128px;
 }
 
-#html_text {
+#html_texte {
     display: flex;
     justify-content: center;
     color: var(--font_color);
@@ -292,12 +292,12 @@ nav {
     font-weight: bold;
 }
 
-#CSS_logo {
+#css_logo {
     width:128px; 
     height:128px;
 }
 
-#css_text {
+#css_texte {
     display: flex;
     justify-content: center;
     color: var(--font_color);
@@ -305,12 +305,12 @@ nav {
     font-weight: bold;
 }
 
-#Cs_logo {
+#cs_logo {
     width:128px; 
     height:128px;
 }
 
-#cs_text {
+#cs_texte {
     display: flex;
     justify-content: center;
     color: var(--font_color);
@@ -318,12 +318,12 @@ nav {
     font-weight: bold;
 }
 
-#PHP_logo {
+#php_logo {
     width:128px; 
     height:128px;
 }
 
-#php_text {
+#php_texte {
     display: flex;
     justify-content: center;
     color: var(--font_color);

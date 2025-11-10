@@ -15,7 +15,6 @@
 <body class="fond">
 
     <!-- Header -->
-
     <header>
         <nav id="navigation">
             <ul class="menu">
@@ -23,13 +22,16 @@
                     <img src="Images\Signature.png" id="signature">
                 </li>
                 <li>
-                    <a href="#Accueil" id="accueil">Accueil</a>
+                    <a href="#accueil_section" id="accueil">Accueil</a>
                 </li>
                 <li>
-                    <a href="#Projets" id="projets">Projets</a>
+                    <a href="#projets" id="projets">Projets</a>
                 </li>
                 <li>
-                    <a href="#Contact" id="contact">Contact</a>
+                    <a href="#competences">Compétences</a>
+                </li>
+                <li>
+                    <a href="#contact" id="contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -43,7 +45,7 @@
             <span id="saut_menu"></span>
  
             <!-- Accueil -->
-            <div class="Accueil">
+            <div id="accueil_section">
                 <div class="titre_presentation">
                     <p id="nom">Ethan Meideck</p>
                     <p id="metier">Développeur Back-end</p>
@@ -57,67 +59,65 @@
                         <p> Je suis Ethan, j’ai 19 ans et je suis actuellement en 2ème année 
                             de BTS SIO, option SLAM, en alternance. Vous pouvez retrouver mes
                             projets en cliquant sur le bouton juste en dessous 😄</p>
-                        <a class="Buttons" href="a-propos.html">Projets</a>
+                        <a class="boutons" href="a-propos.html">Projets</a>
                     </div>
                 </div>
                 <br>
 
         <!-- Projets -->
-             <!-- Projet à renommer ! -->
-             <div id="Projets">
-                <h2 id="Projet_title">Projets réalisés</h2>
-                <div id="Liste_projets">
-                    <div id="Projet_Proxima_div">
-                        <p id="Projet_Proxima_title">Projet Proxima</p>
-                        <img id="Projet_Proxima_logo" src="Images\Logo_Projet_Proxima.png">
-                        <p id="Projet_Proxima_summary">Application de bureau permettant de suivre l'ISS 
+             <div id="projets">
+                <h2 class="section_titres">Projets réalisés</h2>
+                <div id="liste_projets">
+                    <div id="projet_proxima_div">
+                        <p id="projet_proxima_titre">Projet Proxima</p>
+                        <img id="projet_proxima_logo" src="Images\Logo_Projet_Proxima.png">
+                        <p id="projet_proxima_resume">Application de bureau permettant de suivre l'ISS 
                             et les astronautes à bord en temps réel.</p>
                         <br>
-                        <a class="Buttons" id="Projet_Proxima_button" href="Projet_Proxima.html">Projet Proxima</a>
+                        <a class="boutons" id="projet_proxima_button" href="Projet_Proxima.html">Projet Proxima</a>
                     </div>
-                    <div id="The_Library_div">
-                        <p id="The_Library_title">The Library</p>
-                        <img id="The_Library_logo" src="Images\Logo_The_Library.png">
-                        <p id="The_Library_summary">Application de bureau permettant de suivre les livres lu, 
+                    <div id="the_library_div">
+                        <p id="the_library_titre">The Library</p>
+                        <img id="the_library_logo" src="Images\Logo_The_Library.png">
+                        <p id="the_library_resume">Application de bureau permettant de suivre les livres lu, 
                             les classer par types et attribuer des notes.</p>
                         <br>
-                        <a class="Buttons" id="The_Library_button" href="The_Library.html">The Library</a>
+                        <a class="boutons" id="the_library_button" href="The_Library.html">The Library</a>
                     </div>
-                    <div id="Prepa_Deck_div">
-                        <p id="Prepa_Deck_title">Prepa Deck</p>
-                        <img id="Prepa_Deck_logo" src="Images\Logo_PrepaDeck.png">
-                        <p id="Prepa_Deck_summary">Application permettant de préparer des postes Windows plus rapidemment</p>
+                    <div id="prepa_deck_div">
+                        <p id="prepa_deck_titre">Prepa Deck</p>
+                        <img id="prepa_deck_logo" src="Images\Logo_PrepaDeck.png">
+                        <p id="prepa_deck_resume">Application permettant de préparer des postes Windows plus rapidemment</p>
                         <br>
-                        <a class="Buttons" id="Prepa_Deck_button" href="Prepa_Deck.html">Prepa Deck</a>
+                        <a class="boutons" id="prepa_deck_button" href="Prepa_Deck.html">Prepa Deck</a>
                     </div>
                 </div>
              </div>
 
         <!-- Compétences -->
             <span id="saut_competences"></span>
-            <h2 id="Projet_title">Compétences</h2>
+            <h2 class="section_titres">Compétences</h2>
             <div id="competences">
                 <div id="python_div">
                     <img id="python_logo" src="Images\Logo_python.svg">
-                    <p id="python_text">Python</p>
+                    <p id="python_texte">Python</p>
                 </div>
-            <div id="HTML_div">
-                <img id="HTML_logo" src="Images\Logo_html.svg">
-                <p id="html_text">HTML</p>
+            <div id="html_div">
+                <img id="html_logo" src="Images\Logo_html.svg">
+                <p id="html_texte">HTML</p>
             </div>
-            <div id="CSS_div">
-                <img id="CSS_logo" src="Images\Logo_css.svg">
-                <p id="css_text">CSS</p>
+            <div id="css_div">
+                <img id="css_logo" src="Images\Logo_css.svg">
+                <p id="css_texte">CSS</p>
             </div>
-            <div id="Cs_div">
-                <img id="Cs_logo" src="Images\Logo_Cs.svg">
-                <p id="cs_text">Cs</p>
+            <div id="cs_div">
+                <img id="cs_logo" src="Images\Logo_Cs.svg">
+                <p id="cs_texte">Cs</p>
             </div>
-            <div id="PHP_div">
-                <img id="PHP_logo" src="Images\Logo_php.svg">
-                <p id="php_text">PHP</p>
+            <div id="php_div">
+                <img id="php_logo" src="Images\Logo_php.svg">
+                <p id="php_texte">PHP</p>
             </div>
-        </div>
     </main>
 
     <!-- Footer -->
@@ -129,19 +129,22 @@
                         <b id="fast-nav">Navigation rapide</b>
                     </li>
                     <li>
-                        <a href="#Accueil">Accueil</a>
+                        <a href="#accueil_section">Accueil</a>
                     </li>
                     <li>
-                        <a href="#Projets">Projets</a>
+                        <a href="#projets">Projets</a>
                     </li>
                     <li>
-                        <a href="#Contact">Contact</a>
+                        <a href="#competences">Compétences</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </small>
         </div>
 
-        <div class="footer-right">
+        <div class="footer">
             <div class="footer_icons">
                 <a href="https://www.linkedin.com/in/ethan-meideck" target="_blank">
                     <img id="linkedin-icon" src="Images\LinkedIn_icon.svg"></img>
@@ -151,7 +154,7 @@
                 </a>
             </div>
             <div>
-                <p id="copyright">© 2025 -Ethan Meideck - Tous droits réservés</p>
+                <p id="copyright">© 2025 - Ethan Meideck - Tous droits réservés</p>
             </div>
         </div>
     </footer>

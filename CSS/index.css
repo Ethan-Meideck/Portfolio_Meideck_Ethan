@@ -318,6 +318,25 @@ nav {
     font-weight: bold;
 }
 
+#saut_contact {
+    display: block;
+    margin-top: 5%;
+}
+
+#form_div {
+    display: flex;
+    justify-content: center;
+}
+
+.input_form {
+    display: flex;
+    font-size: medium;
+    
+    border-radius: 13px;
+    height: 30%;
+    width: 120%;
+}
+
 /* Footer */
 
 footer {
@@ -327,6 +346,7 @@ footer {
     border-top: 1.5px solid var(--border_color);
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 5%;
     padding-top: 10px;
 }
 

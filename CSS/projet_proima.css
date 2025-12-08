@@ -1,0 +1,146 @@
+/* Colors */
+
+:root {
+    --background_blue: #0055aa;
+    --background_purple: #6600cc;
+    --navbar_background_blue: rgba(0, 85, 170, 0.9);
+    --navbar_background_purple: rgba(102, 0, 204, 0.9);
+    --border_color: grey;
+    --font_color: #f5f5f5;
+    --button_color: #bf00ff;
+    --button_background: #e1e1e1;
+    --picture_border: #383838;
+    --logo_width: 150px;
+    --logo_height: 150px;
+}
+
+/* Page principale */
+
+body {
+    font-family: "Roboto";
+}
+
+.fond {
+    background: linear-gradient(to right, var(--background_blue), var(--background_purple));
+}
+
+/* Header */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(90deg, var(--navbar_background_blue), var(--navbar_background_purple));
+}
+
+#signature {
+    width: 100px;
+    justify-content: start;
+}
+
+.menu {
+    display: flex; /*  Mise à l'horizontal*/
+    padding: 0;
+    gap: 40px; /*  Espace entre les balises*/
+    justify-content: flex-end;
+    margin-left: 6.9%;
+    margin-right: 7.5%;
+}
+
+.menu li {
+    list-style-type: none; /* Suppression des puces */
+}
+
+.menu a {
+    color: var(--font_color);
+    display: block;
+    text-decoration: none;
+    min-width: 50px;
+    font-size: x-large;
+}
+
+.menu #accueil {
+    text-decoration: underline;
+}
+
+.menu a:hover {
+    color: aqua;
+}
+
+.menu .logo {
+    margin-right: auto;
+}
+
+/* Contenu de la page */
+
+#saut_separateur {
+    display: block;
+    margin-bottom: 100px;
+}
+
+#saut_menu {
+    display: block;
+    margin-top: 60px;
+}
+
+/* Contenu */
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1.5px solid var(--border_color);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+small li {
+    list-style-type: none;
+    height: 20px;
+}
+
+small a {
+    text-decoration: none;
+    color: var(--font_color);
+    font-size: 16px;
+}
+
+#li-fast-nav {
+    margin-bottom: 10px;
+}
+
+#fast-nav {
+    font-size: 18px;
+    color: var(--font_color);
+    text-decoration: underline;
+}
+
+small a:hover {
+    color: aqua;
+}
+
+.footer_icons {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+#github-icon {
+    width: 40px;
+    border: 3.5px solid var(--font_color);
+    border-radius: 40px;
+}
+
+#linkedin-icon {
+    width: 40px;
+    border: 3.5px solid var(--font_color);
+    border-radius: 40px;
+}
+
+#copyright {
+    color: var(--font_color);
+}

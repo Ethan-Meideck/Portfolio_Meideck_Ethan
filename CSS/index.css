@@ -305,19 +305,6 @@ nav {
     font-weight: bold;
 }
 
-#cs_logo {
-    width:128px; 
-    height:128px;
-}
-
-#cs_texte {
-    display: flex;
-    justify-content: center;
-    color: var(--font_color);
-    font-size: 18px;
-    font-weight: bold;
-}
-
 #php_logo {
     width:128px; 
     height:128px;

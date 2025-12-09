@@ -326,15 +326,31 @@ nav {
 #form_div {
     display: flex;
     justify-content: center;
+    padding-bottom: 150px;
 }
 
 .input_form {
     display: flex;
     font-size: medium;
-    
-    border-radius: 13px;
+    border-radius: 6px;
     height: 30%;
-    width: 120%;
+    width: 500px;
+}
+
+#form_textarea {
+    border-radius: 4px;
+    height: 80%;
+    width: 500px;
+    font-size: 16px;
+    resize: none;
+}
+
+#sending_button {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    height: 30%;
+    width: 300px;
 }
 
 /* Footer */

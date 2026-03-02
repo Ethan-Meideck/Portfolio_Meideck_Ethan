@@ -85,6 +85,20 @@ nav {
 
 /* Contenu */
 
+.section_titres {
+    display: flex;
+    justify-content: center;
+    color: var(--font_color);
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+p, a {
+    display: flex;
+    color: var(--font_color);
+    justify-content: center;
+}
 
 /* Footer */
 

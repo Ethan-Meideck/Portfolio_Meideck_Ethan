@@ -318,6 +318,19 @@ nav {
     font-weight: bold;
 }
 
+#java_logo {
+    width:128px; 
+    height:128px;
+}
+
+#java_texte {
+    display: flex;
+    justify-content: center;
+    color: var(--font_color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
 #saut_contact {
     display: block;
     margin-top: 5%;

@@ -252,6 +252,32 @@ nav {
     margin: 10px;
 }
 
+#suivi_etudiant_div {
+    text-align: center;
+    border: 3px solid var(--border_color);
+    margin-right: 6.7%;
+    padding-bottom: 20px;
+}
+
+#suivi_etudiant_titre {
+    color: var(--font_color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#suivi_etudiant_resume {
+    color: var(--font_color);
+}
+
+#suivi_etudiant_logo {
+    width: var(--logo_width);
+    height: var(--logo_height);
+}
+
+#suivi_etudiant_resume {
+    margin: 10px;
+}
+
 /* Compétences */
 
 #saut_competences {

@@ -135,6 +135,23 @@ nav {
     text-align: justify;
 }
 
+#CV_frame {
+    width: 70%;
+    height: 100%;
+}
+
+#cv_div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    height: 500px;
+}
+
+#cv_button_div {
+    display: flex;
+    justify-content: center;
+}
+
 .boutons {
     text-decoration: none;
     padding: 8px 10px;

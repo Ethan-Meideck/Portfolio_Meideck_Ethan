@@ -171,6 +171,34 @@ nav {
     background: var(--button_color);
 }
 
+/* Présentation professionnelle */
+
+#xefi_logo_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#xefi_logo {
+    width: 300px;
+}
+
+.texte_presentation_pro {
+    font-size: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+    color: var(--font_color);
+    display: flex;
+}
+
+#prepa_deck_presentation_button {
+    display: flex;
+    justify-content: center;
+    margin-right: 45%;
+    margin-left: 45%;
+}
+
 /* Projets */
 .projets {
     width: 100vh;
@@ -181,6 +209,15 @@ nav {
     justify-content: center;
     color: var(--font_color);
     font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.section_sous_titres {
+    display: flex;
+    justify-content: center;
+    color: var(--font_color);
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 2%;
 }

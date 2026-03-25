@@ -208,6 +208,11 @@ nav {
     height: 500px;
 }
 
+#annexe_e5_button_div {
+    display: flex;
+    justify-content: center;
+}
+
 /* Projets */
 .projets {
     width: 100vh;

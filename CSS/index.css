@@ -135,7 +135,7 @@ nav {
     text-align: justify;
 }
 
-#CV_frame {
+.iframe_docs {
     width: 70%;
     height: 100%;
 }
@@ -197,6 +197,15 @@ nav {
     justify-content: center;
     margin-right: 45%;
     margin-left: 45%;
+}
+
+/* Épreuve E5 */
+
+#annexe_e5_div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    height: 500px;
 }
 
 /* Projets */

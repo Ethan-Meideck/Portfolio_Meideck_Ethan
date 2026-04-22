@@ -154,9 +154,9 @@ nav {
 
 .boutons {
     text-decoration: none;
-    padding: 8px 10px;
+    padding: 15px 30px;
     text-align: center;
-    border-radius: 60px;
+    border-radius: 10px;
     background: var(--button_background);
     border: 2px solid var(--button_color);
     color: var(--button_color);
@@ -164,11 +164,13 @@ nav {
     font-weight: bold;
     cursor: pointer; /* Affiche une main au moment du survol */
     transition: all 0.3s ease; /* Crée une transition au moment du survol*/
+    min-width: 200px;
 }
 
 .boutons:hover {
     color: var(--font_color);
     background: var(--button_color);
+    transform: scale(1.05);
 }
 
 /* Présentation professionnelle */
@@ -268,29 +270,29 @@ nav {
     margin: 10px;
 }
 
-#the_library_div {
+#proxima_news_div {
     text-align: center;
     border: 3px solid var(--border_color);
     margin-right: 5%;
     padding-bottom: 20px;
 }
 
-#the_library_titre {
+#proxima_news_titre {
     color: var(--font_color);
     font-size: 18px;
     font-weight: bold;
 }
 
-#the_library_resume {
+#proxima_news_resume {
     color: var(--font_color);
 }
 
-#the_library_logo {
+#proxima_news_logo {
     width: var(--logo_width);
     height: var(--logo_height);
 }
 
-#the_library_resume {
+#proxima_news_resume {
     margin: 10px;
 }
 
@@ -423,6 +425,31 @@ nav {
     color: var(--font_color);
     font-size: 18px;
     font-weight: bold;
+}
+
+#saut_veille {
+    display: block;
+    margin-top: 5%;
+}
+
+/* Veille technologique */
+
+#veille_description {
+    color: var(--font_color);
+    font-size: 18px;
+    margin-left: 110px;
+    margin-right: 110px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#veille_liens_div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    margin-bottom: 50px;
 }
 
 #saut_contact {

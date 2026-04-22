@@ -156,7 +156,7 @@ nav {
     text-decoration: none;
     padding: 15px 30px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
     background: var(--button_background);
     border: 2px solid var(--button_color);
     color: var(--button_color);

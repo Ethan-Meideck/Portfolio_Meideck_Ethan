@@ -173,6 +173,17 @@ nav {
     transform: scale(1.05);
 }
 
+/* Présentation BTS */
+#explication_bts_div {
+    display: flex;
+    justify-content: center;
+}
+
+.saut_presentations {
+    display: block;
+    margin-top: 5%;
+}
+
 /* Présentation professionnelle */
 
 #xefi_logo_div {
@@ -192,6 +203,7 @@ nav {
     margin-right: 110px;
     color: var(--font_color);
     display: flex;
+    text-align: center;
 }
 
 #prepa_deck_presentation_button {

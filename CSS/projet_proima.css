@@ -24,6 +24,14 @@ body {
     background: linear-gradient(to right, var(--background_blue), var(--background_purple));
 }
 
+.texte {
+    font-size: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+    color: var(--font_color);
+    text-align: center;
+}
+
 /* Header */
 
 nav {
@@ -94,9 +102,8 @@ nav {
     margin-bottom: 2%;
 }
 
-p, a {
+.images {
     display: flex;
-    color: var(--font_color);
     justify-content: center;
 }
 

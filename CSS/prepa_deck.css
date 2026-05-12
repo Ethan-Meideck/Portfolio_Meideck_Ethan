@@ -102,6 +102,11 @@ nav {
     margin-bottom: 2%;
 }
 
+.images {
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer */
 
 footer {

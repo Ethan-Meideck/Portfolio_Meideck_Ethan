@@ -119,6 +119,33 @@ nav {
     height: 40%;
 }
 
+.boutons {
+    text-decoration: none;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 20px;
+    background: var(--button_background);
+    border: 2px solid var(--button_color);
+    color: var(--button_color);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer; /* Affiche une main au moment du survol */
+    transition: all 0.3s ease; /* Crée une transition au moment du survol*/
+    min-width: 200px;
+}
+
+.boutons:hover {
+    color: var(--font_color);
+    background: var(--button_color);
+    transform: scale(1.05);
+}
+
+#telechargement_div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 /* Footer */
 
 footer {
